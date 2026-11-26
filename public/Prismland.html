@@ -18,7 +18,7 @@ canvas{display:block;width:100%;height:100%}
 #info{position:fixed;left:12px;top:calc(10px + env(safe-area-inset-top,0px));font-size:14px;text-shadow:0 1px 4px #000;line-height:1.5;pointer-events:none}
 #ov{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 50% 35%,rgba(255,140,200,.35),rgba(20,10,60,.85));cursor:pointer;padding:16px}
 #ov div{text-align:center;max-width:460px}
-h1{font-size:clamp(48px,12vw,96px);margin:0;line-height:.95;background:linear-gradient(90deg,#38f5ff,#ff3fd0,#ffc233);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 4px 0 rgba(0,0,0,.35))}
+h1{font-size:clamp(34px,9vw,72px);white-space:nowrap;padding-right:.1em;margin:0;line-height:.95;background:linear-gradient(90deg,#38f5ff,#ff3fd0,#ffc233);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 4px 0 rgba(0,0,0,.35))}
 #ov p{font-size:17px;line-height:1.7;margin:18px 0}
 #go{display:inline-block;padding:12px 30px;font:700 22px 'Pixelify Sans',monospace;background:#ffc233;color:#2a1650;border:0;border-radius:8px;box-shadow:0 5px 0 #b57f00;cursor:pointer}
 kbd{background:rgba(255,255,255,.18);border-radius:4px;padding:0 6px}
@@ -42,6 +42,7 @@ kbd{background:rgba(255,255,255,.18);border-radius:4px;padding:0 6px}
 <div id="cross"></div><div id="info"></div><div id="name"></div><div id="bar"></div>
 <div id="mpmenu"><div id="mpcard">
 <h1>Prismland</h1><h2>ONLINE MULTIPLAYER</h2>
+<div style="margin:0 0 12px;font-size:19px;color:#fff;line-height:1.5">by amd<br>insta: @amd_.off</div>
 <p>Build together in the same world. Create a room or join a friend with a 6-character code.</p>
 <input id="playername" class="mpinput" maxlength="16" placeholder="Your player name" value="Player">
 <div class="mpbuttons"><button class="mpbtn" id="createRoom">Create world</button></div>
